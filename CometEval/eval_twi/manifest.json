@@ -1,0 +1,11 @@
+{
+    "CAMPAIGN_URL": "http://127.0.0.1:8000/dashboard/sso/",
+    "CAMPAIGN_NAME": "eval_twi",
+    "CAMPAIGN_KEY": "c1",
+    "CAMPAIGN_NO": 1,
+    "REDUNDANCY": 1,
+
+    "TASKS_TO_ANNOTATORS": [
+        ["eng", "twi", "uniform",  1, 1]
+    ]
+}

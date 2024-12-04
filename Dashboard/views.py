@@ -429,14 +429,14 @@ def dashboard(request):
                     _type = TASK_NAMES[task_cls]
                     _languages = languages_map[task_cls]
                     break
-
+            """        
             print(
                 "campaign = {0}, type = {1}, languages = {2}".format(
                     campaign.campaignName,
-                    _type,
-                    _languages.get(campaign.campaignName, 'none'),
+                    #_type,
+                    #_languages.get(campaign.campaignName, 'none'),
                 )
-            )
+            )"""
 
     _t3 = datetime.now()
 
